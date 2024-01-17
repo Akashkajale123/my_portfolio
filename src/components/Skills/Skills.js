@@ -8,26 +8,34 @@ const Skills = () => {
     <section id="skills">
       <span className="skillTitle">What I do</span>
       <span className="skillDesc">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eius earum
-        atque voluptate consequuntur quae, molestiae alias soluta eveniet
-        incidunt.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, alias. Ducimus atque minima, omnis temporibus dignissimos fugiat dolor sed, laudantium ratione maiores sequi voluptas, asperiores nobis perspiciatis rerum cumque! Modi?
       </span>
       <div className="skillBars">
         <div className="skillBar">
-            <img src="" alt="" className="skillBarImg" />
+            <img src={UIDesign} alt="" className="skillBarImg" />
             <div className="skillBarText">
-                <h2></h2>
-                <p></p>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, nobis.</p>
             </div>
+        </div>
+      </div>
 
+      <div className="skillBars">
+        <div className="skillBar">
+            <img src={WebDesign} alt="" className="skillBarImg" />
             <div className="skillBarText">
-                <h2></h2>
-                <p></p>
+                <h2>Website Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, temporibus!</p>
             </div>
+        </div>
+      </div>
 
+      <div className="skillBars">
+        <div className="skillBar">
+            <img src={AppDesign} alt="" className="skillBarImg" />
             <div className="skillBarText">
-                <h2></h2>
-                <p></p>
+                <h2>App Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, deleniti.</p>
             </div>
         </div>
       </div>
